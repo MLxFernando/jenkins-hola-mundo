@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clonar Código') {
+        stage('Clonar Codigo') {
             steps {
                 git 'https://github.com/MLxFernando/jenkins-hola-mundo.git'
             }
